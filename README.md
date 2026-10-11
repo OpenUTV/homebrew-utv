@@ -4,8 +4,16 @@ Official Homebrew tap for [OpenUTV](https://github.com/OpenUTV/utv) — the ligh
 
 ## Installation
 
+macOS:
+
 ```bash
 brew install --cask openutv/utv/utv
+```
+
+Linux (x86-64, with [Homebrew on Linux](https://docs.brew.sh/Homebrew-on-Linux)):
+
+```bash
+brew install openutv/utv/utv
 ```
 
 Or tap first:
@@ -18,5 +26,6 @@ brew install --cask utv
 ## Upgrading
 
 ```bash
-brew upgrade --cask utv
+brew update && brew upgrade --cask utv   # macOS
+brew update && brew upgrade utv          # Linux
 ```
