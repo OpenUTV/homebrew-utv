@@ -1,6 +1,6 @@
 cask "utv" do
-  version "2026.13" # This will be automatically updated by GitHub Actions
-  sha256 "b436fbbe6100873188ec6c310248a14d4020f2a0bfd6f624a2614c49662bc819"
+  version "2026.14" # This will be automatically updated by GitHub Actions
+  sha256 "81ee26f05655c708dd567b515da01bd50e52c16ca50476d698cae397ed56a171"
 
   url "https://github.com/OpenUTV/utv/releases/download/#{version}/UTV-#{version}-macOS-arm64.zip"
   name "UTV"
@@ -24,7 +24,7 @@ cask "utv" do
   depends_on formula: "openjpeg"
   depends_on formula: "openjph"
   depends_on formula: "pyside"
-  depends_on formula: "python@3.14"
+  depends_on formula: "python@3.15"
   depends_on formula: "qt"
   depends_on formula: "spdlog"
   depends_on formula: "webp"
